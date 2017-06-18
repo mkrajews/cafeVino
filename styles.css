@@ -3,3 +3,8 @@
   height: 20vh;
   /*width: 100vw;*/
 }
+
+.site-wrapper h1 {
+  padding-left: 20px;
+  padding-top: 20px;
+}
