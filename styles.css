@@ -1,25 +1,42 @@
-/*top*/
+/*top section*/
+
 .top-wrapper {
   background-color: ivory;
-  height: 50vh;
+  height: 80vh;
   width: 100vw;
+  background-image: url(/imgs/cafe-cappuccino.jpg);
+  background-size: cover;
 }
 
-.top-wrapper h1 {
+.top-wrapper ul {
   padding-left: 20px;
   padding-top: 20px;
 }
 
 .header {
   background-color: pink;
+  float:left;
   height: 10vh;
   width: 100vw;
 }
 
-/*body/main*/
+.header ul {
+  background-color: blue;
+  display: flex;
+  float: right;
+  height: 10vh;
+  width: 500px;
+}
+
+.header li {
+  padding-right: 50px;
+}
+
+
+/*body/main section*/
+
 .site-main {
   background-color: beige;
   height: 30vh;
   width: 100vw;
-
 }
