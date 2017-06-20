@@ -21,15 +21,20 @@
 }
 
 .header ul {
-  background-color: blue;
+  /*background-color: blue;*/
   display: flex;
   float: right;
-  height: 10vh;
-  width: 500px;
+  /*height: 10vh;*/
+  /*width: 500px;*/
 }
 
 .header li {
   padding-right: 50px;
+}
+
+.header h1 {
+  padding-left: 25px;
+  padding-right: 58vw;
 }
 
 

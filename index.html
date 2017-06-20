@@ -40,15 +40,51 @@
 
   <body>
     <div class="top-wrapper">
-      <header class="header">
-
-        <ul>
+      <!-- <header class="header">
+        <ul class=>
           <li><h1>Cafe Vino Tinto</h1></li>
+        </ul>
+        <ul>
           <li>About</li>
           <li>Menu</li>
           <li>Contact</li>
         </ul>
-      </header>
+      </header> -->
+
+
+      <header class="site-header">
+                  <div class="container">
+
+                    <!--Insert Logo directive here -->
+                    <logo-directive></logo-directive>
+
+                      <nav class="site-nav">
+                          <ul class="primary-nav">
+                              <li>
+                                  <a ui-sref="home">Home</a>
+                              </li>
+                              <li>
+                                  <a ui-sref="shop">Shop</a>
+                              </li>
+                              <li>
+                                  <a ui-sref="blog">Blog</a>
+                              </li>
+                              <li>
+                                  <a ui-sref="about">About</a>
+                              </li>
+
+                          </ul>
+                      </nav>
+                      <button class="hamburger toggle-nav js-toggle-nav" ng-click="showNav">
+                          <span class="hamburger-box"><span class="hamburger-inner"></span>
+                          </span>
+                      </button>
+
+                  </div>
+              </header>
+
+
+
 
     </div>
     <main class="site-main">
