@@ -18,82 +18,70 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Cafe Vino Tinto</title>
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Cafe Vino Tinto</title>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="reset.css">
-  </head>
+  <link rel="stylesheet" href="/styles/styles.css">
+  <link rel="stylesheet" href="/styles/reset.css">
+</head>
 
-  <body>
-    <div class="top-wrapper">
-      <!-- <header class="header">
-        <ul class=>
-          <li><h1>Cafe Vino Tinto</h1></li>
-        </ul>
-        <ul>
-          <li>About</li>
-          <li>Menu</li>
-          <li>Contact</li>
-        </ul>
-      </header> -->
+<body>
+  <div class="top-wrapper">
 
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="title">
+            <li>
+              <!--Insert Logo directive here -->
+            <!-- <logo-directive></logo-directive> -->
 
-      <header class="site-header">
-                  <div class="container">
+              <h1>Cafe Vino Tinto</h1></li>
+          </ul>
+          <ul>
+            <li>
+              <a ui-sref="about">About</a>
+            </li>
+            <li>
+              <a ui-sref="shop">Menu</a>
+            </li>
+            <li>Contact</li>
+          </ul>
+        </nav>
+        <!-- <button class="hamburger toggle-nav js-toggle-nav" ng-click="showNav">
+              <span class="hamburger-box"><span class="hamburger-inner"></span>
+              </span>
+          </button> -->
 
-                    <!--Insert Logo directive here -->
-                    <logo-directive></logo-directive>
+      </div>
 
-                      <nav class="site-nav">
-                          <ul class="primary-nav">
-                              <li>
-                                  <a ui-sref="home">Home</a>
-                              </li>
-                              <li>
-                                  <a ui-sref="shop">Menu</a>
-                              </li>
-                              <li>
-                                  <a ui-sref="blog">Blog</a>
-                              </li>
-                              <li>
-                                  <a ui-sref="about">About</a>
-                              </li>
-
-                          </ul>
-                      </nav>
-                      <button class="hamburger toggle-nav js-toggle-nav" ng-click="showNav">
-                          <span class="hamburger-box"><span class="hamburger-inner"></span>
-                          </span>
-                      </button>
-
-                  </div>
-              </header>
+    </header>
 
 
 
+  </div>
+  <main class="site-main">
 
-    </div>
-    <main class="site-main">
+  </main>
 
-    </main>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+</body>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
 </html>

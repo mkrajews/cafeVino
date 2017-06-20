@@ -4,7 +4,7 @@
   background-color: ivory;
   height: 80vh;
   width: 100vw;
-  background-image: url(/imgs/cafe-cappuccino.jpg);
+  background-image: url(/img/cafe-cappuccino.jpg);
   background-size: cover;
 }
 
@@ -36,6 +36,11 @@
   padding-left: 25px;
   padding-right: 58vw;
 }
+
+/*.primary-nav {
+  height: 5vh;
+  background-color: yellow;
+}*/
 
 
 /*body/main section*/
