@@ -1,34 +1,34 @@
 /*top section*/
-
-.top-wrapper {
+/*OLD SECTION*/
+/*.top-wrapper {
   background-color: ivory;
   height: 80vh;
   width: 100vw;
   background-image: url(/img/cafe-cappuccino.jpg);
   background-size: cover;
-}
+}*/
 
-.top-wrapper ul {
+/*.top-wrapper ul {
   padding-left: 20px;
   padding-top: 20px;
-}
+}*/
 
-.header {
+/*.header {
   background-color: pink;
   float:left;
   height: 10vh;
   width: 100vw;
-}
+}*/
 
-.header ul {
+/*.header ul {*/
   /*background-color: blue;*/
-  display: flex;
+  /*display: flex;*/
   /*float: right;*/
   /*height: 10vh;*/
   /*width: 500px;*/
-}
+/*}*/
 
-.header li {
+/*.header li {
   padding-right: 50px;
 }
 
@@ -40,12 +40,41 @@
 
 .title h1 {
 
-}
+}*/
 
 /*.primary-nav {
   height: 5vh;
   background-color: yellow;
 }*/
+
+/*-----------*/
+/*NEW SECTION*/
+.top-wrapper {
+  background-color: ivory;
+  height: 80vh;
+  width: 100vw;
+  background-image: url(/img/cafe-cappuccino.jpg);
+  background-size: cover;
+}
+
+.nav {
+  background-color: pink;
+  height: 14vh;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.nav li {
+  display: block;
+  float: right;
+  padding: 14px 16px;
+}
+
+
+
+
 
 
 /*body/main section*/
