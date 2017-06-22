@@ -23,7 +23,7 @@
 .header ul {
   /*background-color: blue;*/
   display: flex;
-  float: right;
+  /*float: right;*/
   /*height: 10vh;*/
   /*width: 500px;*/
 }
@@ -33,8 +33,13 @@
 }
 
 .header h1 {
-  padding-left: 25px;
+  background-color: red;
+  padding-left: 20px;
   padding-right: 58vw;
+}
+
+.title h1 {
+
 }
 
 /*.primary-nav {
