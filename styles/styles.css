@@ -51,10 +51,11 @@
 /*NEW SECTION*/
 .top-wrapper {
   background-color: ivory;
-  height: 80vh;
-  width: 100vw;
   background-image: url(/img/cafe-cappuccino.jpg);
   background-size: cover;
+  font-family: sans-serif;
+  height: 80vh;
+  width: 100vw;
 }
 
 .nav {
@@ -70,8 +71,13 @@
   display: block;
   float: right;
   padding: 14px 16px;
+  /*background-color: red;*/
 }
 
+.title {
+  background-color: yellow;
+  /*float: left;*/
+}
 
 
 
