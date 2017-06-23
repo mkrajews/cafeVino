@@ -89,7 +89,7 @@
 
 .site-main {
   background-color: beige;
-  height: 30vh;
+  height: 40vh;
   width: 100vw;
 }
 
@@ -97,13 +97,13 @@
   background-color: pink;
   height: 30vh;
   width: 50vw;
-  float:right;
+  float:left;
+
 }
 
 .main2 {
   background-color: lightblue;
   height: 30vh;
   width: 50vw;
-  /*float:left;*/
-
+  float:right;
 }
