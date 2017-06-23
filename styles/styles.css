@@ -96,13 +96,14 @@
 .main1 {
   background-color: pink;
   height: 30vh;
-  width: 100vw;
+  width: 50vw;
   float:right;
 }
 
 .main2 {
   background-color: lightblue;
   height: 30vh;
-  width: 100vw;
-  float:left;
+  width: 50vw;
+  /*float:left;*/
+
 }
