@@ -92,3 +92,17 @@
   height: 30vh;
   width: 100vw;
 }
+
+.main1 {
+  background-color: pink;
+  height: 30vh;
+  width: 100vw;
+  float:right;
+}
+
+.main2 {
+  background-color: lightblue;
+  height: 30vh;
+  width: 100vw;
+  float:left;
+}
