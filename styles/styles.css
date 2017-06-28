@@ -76,9 +76,9 @@
   /*background-color: red;*/
 }
 
-.title {
+#title {
   background-color: yellow;
-  /*float: left;*/
+  float: left;
 }
 
 
