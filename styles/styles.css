@@ -87,6 +87,18 @@
 
 /*body/main section*/
 
+.main1 p {
+  font-size: 24px;
+  font-family: sans-serif;
+  padding: 10px 50px;
+
+}
+.main2 p {
+  font-size: 24px;
+  font-family: sans-serif;
+  padding: 10px 50px;
+}
+
 .site-main {
   background-color: beige;
   height: 40vh;
